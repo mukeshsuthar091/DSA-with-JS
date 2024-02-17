@@ -55,5 +55,7 @@ function isBalanced(s){
 console.log(isBalanced(s1));
 console.log(isBalanced(s2));
 console.log(isBalanced(s3));
+console.log(isBalanced("(("));
+console.log(isBalanced(")(){}"));
 
 
